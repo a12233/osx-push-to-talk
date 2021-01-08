@@ -1,6 +1,6 @@
 assets/PushToTalk.dmg
 assets/PushToTalk.app
-
+.DS_Store
 # Created by https://www.gitignore.io/api/xcode,objc,osx
 
 ### Xcode ###

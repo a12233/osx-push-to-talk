@@ -36,7 +36,7 @@ class Microphone {
     func setupDeviceMenu(menu: NSMenu) throws {
         menu.removeAllItems()
         let devices = try? getInputDevices()
-        self.selectedInput = devices![0]
+        self.selectedInput = devices![1]
         for device in devices! {
             let item = DeviceMenuItem()
             item.inputDevice = device
